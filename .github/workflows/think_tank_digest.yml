@@ -1,0 +1,43 @@
+name: Daily Think Tank Tech Digest
+
+on:
+  schedule:
+    - cron: '15 11 * * *'  # 6:15am EST = 11:15am UTC
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install feedparser requests openai beautifulsoup4
+
+      - name: Restore history cache
+        uses: actions/cache@v4
+        with:
+          path: think_tank_history.json
+          key: think-tank-history-${{ github.run_id }}
+          restore-keys: |
+            think-tank-history-
+
+      - name: Run think tank digest
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          TO_EMAIL: ${{ secrets.TO_EMAIL }}
+        run: python think_tank_digest.py
+
+      - name: Save history cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: think_tank_history.json
+          key: think-tank-history-${{ github.run_id }}

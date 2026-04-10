@@ -1,0 +1,411 @@
+{
+  "results": [
+    {
+      "input": "Atlantic Council",
+      "output": {
+        "org_name": "Atlantic Council",
+        "website": "https://www.atlanticcouncil.org/",
+        "rss_url": "https://www.atlanticcouncil.org/feed/",
+        "publications_url": "https://www.atlanticcouncil.org/insights-impact/research/",
+        "notes": "The Atlantic Council's main website is https://www.atlanticcouncil.org/. Their primary publications and research listing page is located at https://www.atlanticcouncil.org/insights-impact/research/, which features in-depth reports, issue briefs, and analysis. A functional RSS feed was identified at https://www.atlanticcouncil.org/feed/, which provides a stream of their latest content including blog posts and research updates. The feed is powered by WordPress and is actively maintained."
+      },
+      "error": ""
+    },
+    {
+      "input": "Brennan Center",
+      "output": {
+        "org_name": "Brennan Center",
+        "website": "https://www.brennancenter.org/",
+        "rss_url": "none",
+        "publications_url": "https://www.brennancenter.org/our-work/research-reports",
+        "notes": "The Brennan Center for Justice does not currently provide a public RSS feed on its website. Common paths such as /feed, /rss, and /rss.xml were tested and returned 'Content Not Found'. The organization encourages users to stay updated through their email newsletters and social media channels. The main publications and research reports are listed on their dedicated 'Research & Reports' page."
+      },
+      "error": ""
+    },
+    {
+      "input": "Carnegie Endowment for International Peace",
+      "output": {
+        "org_name": "Carnegie Endowment for International Peace",
+        "website": "https://carnegieendowment.org/",
+        "rss_url": "none",
+        "publications_url": "https://carnegieendowment.org/research",
+        "notes": "The Carnegie Endowment for International Peace does not currently provide a public RSS feed on its main website. The website features a 'Research' page as the primary listing for publications and commentary. While some third-party sources mention an RSS feed, direct verification on the site shows no active RSS links or common paths (e.g., /rss, /feed). The organization emphasizes email newsletters and social media for updates."
+      },
+      "error": ""
+    },
+    {
+      "input": "Center for AI Policy",
+      "output": {
+        "org_name": "Center for AI Policy",
+        "website": "https://www.centeraipolicy.org/",
+        "rss_url": "https://aipolicypod.substack.com/feed",
+        "publications_url": "https://www.centeraipolicy.org/work",
+        "notes": "The Center for AI Policy (CAIP) has ceased most active operations as of May 2025 due to funding issues, though it maintains a Policy Advocacy Network and legislative review service. The main website does not provide a native RSS feed for its research or blog. However, their podcast, which is a primary medium for their policy discussions, is hosted on Substack and has a functional RSS feed. The publications are listed under the 'Our Work' section of their website."
+      },
+      "error": ""
+    },
+    {
+      "input": "Center for European Policy Analysis (CEPA)",
+      "output": {
+        "org_name": "Center for European Policy Analysis (CEPA)",
+        "website": "https://cepa.org/",
+        "rss_url": "https://cepa.org/feed/",
+        "publications_url": "https://cepa.org/insights-analysis/",
+        "notes": "The Center for European Policy Analysis (CEPA) website is built on WordPress, and its primary RSS feed is available at the standard /feed/ path. The organization's research, reports, and articles are centrally located under the 'Insights & Analysis' section, which serves as the main publications hub."
+      },
+      "error": ""
+    },
+    {
+      "input": "Center for Strategic and International Studies (CSIS)",
+      "output": {
+        "org_name": "Center for Strategic and International Studies (CSIS)",
+        "website": "https://www.csis.org/",
+        "rss_url": "https://www.csis.org/rss.xml",
+        "publications_url": "https://www.csis.org/analysis",
+        "notes": "The main website (csis.org) was blocked by policy restrictions, but the RSS feed and publications page were verified through search results and direct curl requests. The RSS feed (https://www.csis.org/rss.xml) is a standard Drupal-generated feed that is active and updated. The main research and analysis listing page is located at /analysis."
+      },
+      "error": ""
+    },
+    {
+      "input": "Chertoff Group",
+      "output": {
+        "org_name": "Chertoff Group",
+        "website": "https://chertoffgroup.com/",
+        "rss_url": "https://chertoffgroup.com/feed/",
+        "publications_url": "https://chertoffgroup.com/news-resources/newsroom/",
+        "notes": "The RSS feed was identified through the website's HTML source code. The Newsroom page serves as the primary repository for the organization's publications, including press releases, thought leadership articles, and industry insights. Other sections like 'Insights' and 'Multimedia' are also available under the 'News & Resources' menu, but the Newsroom provides the most comprehensive listing."
+      },
+      "error": ""
+    },
+    {
+      "input": "CNAS (Center for a New American Security)",
+      "output": {
+        "org_name": "CNAS (Center for a New American Security)",
+        "website": "https://www.cnas.org/",
+        "rss_url": "none",
+        "publications_url": "https://www.cnas.org/reports",
+        "notes": "The main website is https://www.cnas.org/. The primary publications page is https://www.cnas.org/reports, which lists their research reports. No general RSS feed for publications was found on the website or in the page source. However, individual podcasts like 'How Russia Fights' have specific RSS feeds (e.g., https://feeds.castos.com/jk5d). Given the lack of a site-wide or publications-specific RSS feed, 'none' is reported for the general rss_url."
+      },
+      "error": ""
+    },
+    {
+      "input": "Cornell Tech / Cornell University AI Policy",
+      "output": {
+        "org_name": "Cornell Tech / Cornell University AI Policy",
+        "website": "https://ai.cornell.edu/",
+        "rss_url": "https://ai.cornell.edu/feed/",
+        "publications_url": "https://ai.cornell.edu/category/ethics-law-and-policy/",
+        "notes": "Cornell Tech's AI Policy research is part of a broader interdisciplinary effort. The main AI Initiative website (ai.cornell.edu) serves as a central hub for AI research across Cornell campuses, including Cornell Tech. Specific AI Policy news and research can be found under the 'Ethics, Law, and Policy' category on the AI Initiative site and the 'Law Tech' category on the Cornell Tech site. Both provide dedicated RSS feeds for these categories."
+      },
+      "error": ""
+    },
+    {
+      "input": "Council on Foreign Relations (CFR)",
+      "output": {
+        "org_name": "Council on Foreign Relations (CFR)",
+        "website": "https://www.cfr.org/",
+        "rss_url": "https://www.cfr.org/feed",
+        "publications_url": "https://www.cfr.org/publications",
+        "notes": "The Council on Foreign Relations (CFR) provides a comprehensive RSS feed at /feed that includes articles, backgrounders, reports, and podcasts. The main publications page offers a searchable database of their research and analysis. Access to the website may be subject to standard anti-bot protections, but the RSS feed is publicly accessible."
+      },
+      "error": ""
+    },
+    {
+      "input": "CSET (Center for Security and Emerging Technology)",
+      "output": {
+        "org_name": "CSET (Center for Security and Emerging Technology)",
+        "website": "https://cset.georgetown.edu/",
+        "rss_url": "https://cset.georgetown.edu/publications/feed/",
+        "publications_url": "https://cset.georgetown.edu/publications/",
+        "notes": "CSET (Center for Security and Emerging Technology) is a policy research organization within Georgetown University's Walsh School of Foreign Service. It provides data-driven analysis on the security implications of emerging technologies. The organization maintains a dedicated RSS feed for its publications at /publications/feed/ and a general site feed at /feed/. Research is categorized by topics such as AI talent, data, and computational power."
+      },
+      "error": ""
+    },
+    {
+      "input": "FDD (Foundation for Defense of Democracies)",
+      "output": {
+        "org_name": "FDD (Foundation for Defense of Democracies)",
+        "website": "https://www.fdd.org/",
+        "rss_url": "https://www.fdd.org/feed/",
+        "publications_url": "https://www.fdd.org/products/",
+        "notes": "The main website for the Foundation for Defense of Democracies (FDD) is fdd.org. The publications are listed under the 'Products' section of the website. A functional RSS feed was identified at the standard WordPress path /feed/. Additionally, FDD's project 'Long War Journal' has its own dedicated RSS feeds page."
+      },
+      "error": ""
+    },
+    {
+      "input": "Freedom House",
+      "output": {
+        "org_name": "Freedom House",
+        "website": "https://freedomhouse.org",
+        "rss_url": "none",
+        "publications_url": "https://freedomhouse.org/reports",
+        "notes": "Freedom House does not appear to provide a public RSS feed on its current website. The organization primarily uses email newsletters (e.g., 'Spotlight on Freedom') for updates. Common RSS paths and site searches did not yield a valid feed URL. The publications page is the central hub for their major reports like 'Freedom in the World' and 'Freedom on the Net'."
+      },
+      "error": ""
+    },
+    {
+      "input": "Frontier Model Forum",
+      "output": {
+        "org_name": "Frontier Model Forum",
+        "website": "https://www.frontiermodelforum.org/",
+        "rss_url": "https://www.frontiermodelforum.org/feed/",
+        "publications_url": "https://www.frontiermodelforum.org/publications/",
+        "notes": "The Frontier Model Forum (FMF) is an industry-supported non-profit focused on AI safety and security. Its publications page includes issue briefs, technical reports, and news updates. The RSS feed is active and provides updates on their latest research and announcements. The website uses WordPress, and the RSS feed is located at the standard /feed/ path."
+      },
+      "error": ""
+    },
+    {
+      "input": "Georgetown Center for Security and Emerging Technology",
+      "output": {
+        "org_name": "Georgetown Center for Security and Emerging Technology",
+        "website": "https://cset.georgetown.edu/",
+        "rss_url": "https://cset.georgetown.edu/publications/feed/",
+        "publications_url": "https://cset.georgetown.edu/publications/",
+        "notes": "The Georgetown Center for Security and Emerging Technology (CSET) maintains multiple RSS feeds to categorize its output. The primary feed for research reports, translations, and formal publications is located at https://cset.georgetown.edu/publications/feed/. For a broader stream of content including news mentions, blog posts, and op-eds, the center offers a general feed at https://cset.georgetown.edu/feed/. Both feeds are actively maintained and provide structured access to CSET's data-driven analysis."
+      },
+      "error": ""
+    },
+    {
+      "input": "German Marshall Fund",
+      "output": {
+        "org_name": "German Marshall Fund",
+        "website": "https://www.gmfus.org/",
+        "rss_url": "https://www.gmfus.org/rss/insight-listing.xml",
+        "publications_url": "https://www.gmfus.org/insights-research",
+        "notes": "The German Marshall Fund (GMF) website uses Drupal 10. The main publications page is 'Insights + Research'. While no RSS link is visible in the UI, an active RSS feed was discovered in the page's JavaScript configuration at /rss/insight-listing.xml. This feed provides the latest research, news, and commentary. Additionally, the GMF's 'Alliance for Securing Democracy' (ASD) has its own RSS feed at https://securingdemocracy.isd.ngo/?feed=rss2, though ASD is currently merging with the Institute for Strategic Dialogue (ISD)."
+      },
+      "error": ""
+    },
+    {
+      "input": "Global Digital Policy Incubator (Stanford)",
+      "output": {
+        "org_name": "Global Digital Policy Incubator (Stanford)",
+        "website": "https://cyber.fsi.stanford.edu/gdpi",
+        "rss_url": "none",
+        "publications_url": "https://cyber.fsi.stanford.edu/gdpi/publications",
+        "notes": "The Global Digital Policy Incubator (GDPi) is a program within the Cyber Policy Center at Stanford's Freeman Spogli Institute for International Studies (FSI). While the organization has a robust publications page, no active RSS feed was found on the GDPI, Cyber Policy Center, or FSI websites. Common RSS paths and metadata were checked across these domains without success. The organization primarily uses newsletters and social media for updates."
+      },
+      "error": ""
+    },
+    {
+      "input": "Harvard Kennedy School Belfer Center",
+      "output": {
+        "org_name": "Harvard Kennedy School Belfer Center",
+        "website": "https://www.belfercenter.org/",
+        "rss_url": "none",
+        "publications_url": "https://www.belfercenter.org/research-analysis",
+        "notes": "The Belfer Center website mentions RSS in its privacy policy and some specific podcast series (e.g., 'Right Rising') provide their own feeds via external platforms like Fireside.fm. However, no general RSS feed for all publications or the entire site was found. The main research and publications listing is located on the 'Research & Analysis' page, which features a filterable database of over 12,000 results."
+      },
+      "error": ""
+    },
+    {
+      "input": "Horizon Advisory",
+      "output": {
+        "org_name": "Horizon Advisory",
+        "website": "https://www.horizonadvisory.org/",
+        "rss_url": "https://medium.com/feed/horizon-scan",
+        "publications_url": "https://www.horizonadvisory.org/insights",
+        "notes": "Horizon Advisory is a geopolitical risk advisory firm. Their main website is minimal and does not host a traditional blog with an RSS feed. However, they maintain an active Medium publication called 'Horizon Scan' which provides a valid RSS feed. Their research and reports are primarily listed under the 'Insights' section of their main website, which serves as a landing page for various thematic research areas and specific reports like 'BUYER BEWARE'."
+      },
+      "error": ""
+    },
+    {
+      "input": "Institute for Security and Technology",
+      "output": {
+        "org_name": "Institute for Security and Technology",
+        "website": "https://securityandtechnology.org/",
+        "rss_url": "https://securityandtechnology.org/feed/",
+        "publications_url": "https://securityandtechnology.org/insights/",
+        "notes": "The Institute for Security and Technology (IST) uses a WordPress-based website. The main publications are listed under the 'Insights' section, which includes reports, analysis, and blog posts. A functional RSS feed was identified at the standard WordPress /feed/ path."
+      },
+      "error": ""
+    },
+    {
+      "input": "Kupanda Capital",
+      "output": {
+        "org_name": "Kupanda Capital",
+        "website": "https://www.kupanda.com/",
+        "rss_url": "none",
+        "publications_url": "https://www.kupanda.com/",
+        "notes": "Kupanda Capital is an investment and advisory firm focused on pan-African companies. It does not maintain a dedicated publications or research page on its main website. Its partners and operating partners (such as Bobby Pittman and Judd Devermont) frequently publish research and commentary through external think tanks and platforms, including the Center for Global Development (CGD), the Belfer Center, CSIS, and personal Substack accounts (e.g., Post Strategy). One of its portfolio companies, Fraym, maintains an active research blog at https://fraym.io/blog/."
+      },
+      "error": ""
+    },
+    {
+      "input": "McCain Institute",
+      "output": {
+        "org_name": "McCain Institute",
+        "website": "https://www.mccaininstitute.org/",
+        "rss_url": "https://www.mccaininstitute.org/feed/",
+        "publications_url": "https://www.mccaininstitute.org/resources/reports/",
+        "notes": "The McCain Institute's main website is mccaininstitute.org. The primary research and publications are listed under the 'Reports' section of their Newsroom. A valid RSS feed was found at /feed/ which includes the latest reports, press releases, and blog posts. The specific 'Publications' page was found to be under development at the time of the search."
+      },
+      "error": ""
+    },
+    {
+      "input": "Meridian International Center",
+      "output": {
+        "org_name": "Meridian International Center",
+        "website": "https://meridian.org/",
+        "rss_url": "https://meridian.org/feed/",
+        "publications_url": "https://meridian.org/news/",
+        "notes": "Meridian International Center primarily publishes news updates, press releases, and annual reports rather than traditional academic research papers. Their 'News' page serves as the central hub for these publications. A valid RSS feed was found at the standard WordPress path."
+      },
+      "error": ""
+    },
+    {
+      "input": "New America",
+      "output": {
+        "org_name": "New America",
+        "website": "https://www.newamerica.org/",
+        "rss_url": "https://www.newamerica.org/feed/",
+        "publications_url": "https://www.newamerica.org/latest/",
+        "notes": "New America's main content feed is available at /feed/. The 'Latest' page (https://www.newamerica.org/latest/) serves as the primary repository for all research, reports, and articles, and the /publications/ URL redirects there. The RSS feed was confirmed via the site's metadata."
+      },
+      "error": ""
+    },
+    {
+      "input": "Notre Dame International Security Center",
+      "output": {
+        "org_name": "Notre Dame International Security Center",
+        "website": "https://ondisc.nd.edu/",
+        "rss_url": "https://ondisc.nd.edu/news-media/news.rss",
+        "publications_url": "https://ondisc.nd.edu/research/research-publications/",
+        "notes": "The organization is officially known as the O'Brien Notre Dame International Security Center (ONDISC). The RSS feed is specifically for their news and media updates, which include research highlights and expert commentary. The publications page provides a searchable database of articles, books, and book chapters by their faculty and fellows."
+      },
+      "error": ""
+    },
+    {
+      "input": "National Counterterrorism Innovation Technology and Education Center (University of Nebraska Omaha)",
+      "output": {
+        "org_name": "National Counterterrorism Innovation Technology and Education Center (University of Nebraska Omaha)",
+        "website": "https://www.unomaha.edu/ncite/index.php",
+        "rss_url": "https://digitalcommons.unomaha.edu/ncitereportsresearch/recent.rss",
+        "publications_url": "https://digitalcommons.unomaha.edu/ncitereportsresearch/",
+        "notes": "The organization's main research and publications are hosted on the University of Nebraska Omaha's DigitalCommons platform. An RSS feed is available specifically for the 'Reports, Projects, and Research' series. NCITE also produces a podcast called 'NCITE Insights' with its own RSS feed (https://feed.podbean.com/ncitecoe/feed.xml)."
+      },
+      "error": ""
+    },
+    {
+      "input": "PIIE (Peterson Institute for International Economics)",
+      "output": {
+        "org_name": "PIIE (Peterson Institute for International Economics)",
+        "website": "https://www.piie.com/",
+        "rss_url": "https://www.piie.com/rss/update.xml",
+        "publications_url": "https://www.piie.com/research/publications",
+        "notes": "The Peterson Institute for International Economics (PIIE) provides a comprehensive RSS feed titled 'Peterson Institute Update' which includes events, books, and research publications. The feed is linked via an RSS icon in the website footer. The main publications page organizes research into several categories including Policy Briefs, Working Papers, and PIIE Briefings."
+      },
+      "error": ""
+    },
+    {
+      "input": "RAND Corporation",
+      "output": {
+        "org_name": "RAND Corporation",
+        "website": "https://www.rand.org/",
+        "rss_url": "https://www.rand.org/pubs/new.xml",
+        "publications_url": "https://www.rand.org/pubs.html",
+        "notes": "The RAND Corporation provides several RSS feeds for different content types. The primary feed for research publications is https://www.rand.org/pubs/new.xml. Their main publications listing page is https://www.rand.org/pubs.html, which includes research reports, commentary, and articles."
+      },
+      "error": ""
+    },
+    {
+      "input": "Skadden Arps",
+      "output": {
+        "org_name": "Skadden Arps",
+        "website": "https://www.skadden.com/",
+        "rss_url": "https://feeds.captivate.fm/the-informed-board/",
+        "publications_url": "https://www.skadden.com/insights",
+        "notes": "Skadden Arps does not provide a general RSS feed for all publications on its main website. However, it offers several podcast-specific RSS feeds hosted on Captivate.fm. The main publications and research are listed under the 'Insights' section of their website. Publications are also syndicated on legal news platforms like JD Supra and Lexology."
+      },
+      "error": ""
+    },
+    {
+      "input": "Special Competitive Studies Project (SCSP)",
+      "output": {
+        "org_name": "Special Competitive Studies Project (SCSP)",
+        "website": "https://www.scsp.ai/",
+        "rss_url": "https://www.scsp.ai/feed/",
+        "publications_url": "https://www.scsp.ai/ourwork/",
+        "notes": "The Special Competitive Studies Project (SCSP) maintains a primary website with a dedicated 'Our Work' section for publications. An active RSS feed was identified at the standard WordPress path (/feed/). Additionally, SCSP has a significant presence on Substack (scsp222.substack.com) which also provides an RSS feed for their newsletter content."
+      },
+      "error": ""
+    },
+    {
+      "input": "Stimson Center",
+      "output": {
+        "org_name": "Stimson Center",
+        "website": "https://www.stimson.org/",
+        "rss_url": "https://www.38north.org/feed/",
+        "publications_url": "https://www.stimson.org/about/stimson/programs/",
+        "notes": "The Stimson Center website was inaccessible, so the publications URL is a best guess based on search results. The RSS feed is for their '38 North' project, as a general RSS feed was not found."
+      },
+      "error": ""
+    },
+    {
+      "input": "The Asia Group",
+      "output": {
+        "org_name": "The Asia Group",
+        "website": "https://theasiagroup.com/",
+        "rss_url": "https://theasiagroup.com/feed/",
+        "publications_url": "https://theasiagroup.com/media/",
+        "notes": "The Asia Group provides a general RSS feed that covers all site updates, including news and commentary. A more specific feed for their commentary section is also available at https://theasiagroup.com/category/commentary/feed/. The 'Insights' section on their website (found at the /media/ URL) is the primary repository for their research, commentary, and media appearances."
+      },
+      "error": ""
+    },
+    {
+      "input": "The Fletcher School Tufts University",
+      "output": {
+        "org_name": "The Fletcher School Tufts University",
+        "website": "https://fletcher.tufts.edu/",
+        "rss_url": "https://now.tufts.edu/rss.xml",
+        "publications_url": "https://fletcher.tufts.edu/research/research-publications",
+        "notes": "The Fletcher School's news and research are primarily hosted on the main Tufts University news platform, Tufts Now. While the school's website (fletcher.tufts.edu) does not have a dedicated RSS feed for its publications page, the main Tufts Now RSS feed (now.tufts.edu/rss.xml) includes updates from The Fletcher School. Additionally, specific RSS feeds are available for the Fletcher Admissions Blog (https://sites.tufts.edu/fletcheradmissions/feed/) and the Fares Center for Eastern Mediterranean Studies (https://sites.tufts.edu/farescenter/feed/podcast/)."
+      },
+      "error": ""
+    },
+    {
+      "input": "Tony Blair Institute for Global Change",
+      "output": {
+        "org_name": "Tony Blair Institute for Global Change",
+        "website": "https://institute.global/",
+        "rss_url": "none",
+        "publications_url": "https://institute.global/insights",
+        "notes": "The Tony Blair Institute for Global Change does not appear to provide a public RSS feed on its website. Common paths such as /feed, /rss, and /publications/feed were tested and returned 404 errors. The website's source code and sitemap also do not contain any RSS or Atom feed links. The primary way to receive updates is through their email newsletter. The 'Insights' page serves as the main repository for their research, publications, and commentary."
+      },
+      "error": ""
+    },
+    {
+      "input": "University of Nebraska Omaha NCITE",
+      "output": {
+        "org_name": "University of Nebraska Omaha NCITE",
+        "website": "https://www.unomaha.edu/ncite/index.php",
+        "rss_url": "https://digitalcommons.unomaha.edu/ncitereportsresearch/recent.rss",
+        "publications_url": "https://digitalcommons.unomaha.edu/ncitereportsresearch/",
+        "notes": "The National Counterterrorism Innovation, Technology, and Education (NCITE) Center hosts its primary research repository on the University of Nebraska Omaha's Digital Commons platform. The identified RSS feed (https://digitalcommons.unomaha.edu/ncitereportsresearch/recent.rss) specifically tracks new reports, projects, and research submissions. Additional RSS feeds are available for the NCITE Insights podcast (https://feed.podbean.com/ncitecoe/feed.xml) and the center's newsletters (https://digitalcommons.unomaha.edu/ncitenewsletters/recent.rss)."
+      },
+      "error": ""
+    },
+    {
+      "input": "University of Texas Program on AI and National Security",
+      "output": {
+        "org_name": "University of Texas Program on AI and National Security",
+        "website": "https://www.strausscenter.org/technology-security-and-global-affairs/",
+        "rss_url": "https://www.strausscenter.org/feed/",
+        "publications_url": "https://www.strausscenter.org/publications/",
+        "notes": "The Program on AI and National Security is a key research initiative within the Robert Strauss Center for International Security and Law at the University of Texas at Austin. The program's research and publications are integrated into the Strauss Center's broader 'Technology, Security, and Global Affairs' and 'Technology and National Security Research Partnership' portfolios. The RSS feed provided is the main feed for the Strauss Center, which includes all program-specific updates and publications."
+      },
+      "error": ""
+    },
+    {
+      "input": "Council on Foreign Relations CFR publications",
+      "output": {
+        "org_name": "Council on Foreign Relations (CFR)",
+        "website": "https://www.cfr.org/",
+        "rss_url": "https://www.cfr.org/rss.xml",
+        "publications_url": "https://www.cfr.org/research-analysis",
+        "notes": "The Council on Foreign Relations (CFR) provides extensive research and analysis through its website. While historical RSS feeds like https://www.cfr.org/rss.xml or http://feeds.cfr.org/cfr_main were widely used, the current website architecture appears to prioritize newsletters and podcasts. Direct access to RSS feeds via automated tools is currently restricted by Cloudflare (403 Forbidden), but the standard RSS path remains https://www.cfr.org/rss.xml. For specific content, CFR uses Podbean for podcast feeds (e.g., https://feed.podbean.com/theworldnextweek/feed.xml). The main research hub is the 'Research & Analysis' page, which serves as the directory for all their publications, reports, and expert analysis."
+      },
+      "error": ""
+    }
+  ]
+}
